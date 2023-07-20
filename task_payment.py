@@ -16,8 +16,6 @@ cod_imovel = "codImovelVizinho?"
 driver = webdriver.Chrome()
 driver.get(url)
 
-wait = webdriver.WebDriverWait()
-
 cpf_cnpj_input = driver.find_element(By.XPATH, "//input[@id='27']")
 cod_imovel_input = driver.find_element(By.XPATH, "//input[@id='26']")
 

@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 
 # Melhorias criar função para verificar carregamento de elementos x intervalo de tempo
 # Refatoração, encapsular o algoritmo para melhor entendimento e orientação 
-# https://servicos.corsan.com.br/#/solicitacao/1/
 
 url = "https://servicos.corsan.com.br/#/solicitacao/1/"
 cpfcnpj = "123246547"
@@ -60,8 +59,6 @@ Situação = tudo que for diferente de Paga
 Competência: Data do mês anterior a data do mês de pagamento
 
 Data de Vencimento: 20/08/2023 (Data do mês de pagamento )
-
-
 '''
 # Aguardar até que a tabela esteja presente na página
 table = driver.find_element(By.CLASS_NAME, "lista-solicitacao")
@@ -123,21 +120,4 @@ for row in rows:
                 break
 
 
-
-
-''' Competência
-07/2023
-Data de Vencimento
-20/08/2023
-Valor
-110,03
-Situação
-Pendente
-
-'''
-
-
-#input_cod_imovel.send_keys(cod_imovel)
-
-#cod_imovel_input.send_keys(Keys.RETURN)
 

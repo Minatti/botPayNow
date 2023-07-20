@@ -1,5 +1,5 @@
 # botPayNow
-Project the Automation
+Automation Project
 
 Minimalist design sketch (steps)
 

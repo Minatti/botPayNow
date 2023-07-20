@@ -37,17 +37,6 @@ botao_confirmar.click()
 time.sleep(5)
 
 
-# elemento_tabela = driver.find_element(By.XPATH, "//*[@id='page-top']/div[2]/div/div/div/div[1]/form")
-
-# time.sleep(2)
-
-# time.sleep(2)
-
-# dados_tabela = elemento_tabela.text
-
-# print(dados_tabela)
-
-
 # Regras // Pensando posteriormente, teremos uma interface para config das parametrizações
 '''
 Filtros

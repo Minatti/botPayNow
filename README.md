@@ -1,10 +1,10 @@
 # botPayNow
-Project the Automation
+Automation Project
 
 Minimalist design sketch (steps)
 
 
-1. task_payment (index.page)
+1. task_payment
 
     1.1: Open browser by URL
     1.2: Search fields of inputs for (cpf/cnpj and propert Code), capturing your elements

@@ -16,3 +16,10 @@ Minimalist design sketch (steps)
 2. read_pdf
 
     1.1: extract text for payment
+   
+4. Login App
+   1.1: install emulador
+   1.2: install app (nubank, inter, picpay)
+   1.3: login access
+   1.4: feature pay
+   

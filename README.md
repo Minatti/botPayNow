@@ -15,7 +15,4 @@ Minimalist design sketch (steps)
 
 2. read_pdf
 
-    1.1: We'll use the Tabula library to help us get data from the PDF.
-        *To install run the command: pip install tabula
-        ** Successfully installed numpy-1.25.1 tabula-1.0.5
-    1.2: Let's create a process to open the downloaded file and scan the information, the contents of that file.
+    1.1: extract text for payment

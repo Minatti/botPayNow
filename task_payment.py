@@ -4,11 +4,14 @@ from selenium.webdriver.common.by import By
 import time
 from bs4 import BeautifulSoup
 
+
+
+
 def getBoleto():
 
     url = "https://servicos.corsan.com.br/#/solicitacao/1/"
-    cpfcnpj = "03435774029"
-    cod_imovel = "2624228-1"
+    cpfcnpj = "12345678910"
+    cod_imovel = "7898190"
 
 
     driver = webdriver.Chrome()

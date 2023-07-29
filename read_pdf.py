@@ -1,7 +1,6 @@
 from PyPDF2 import PdfReader
 
 
-
 def read_my_pdf():
 
     path = "C:/users/workcarminatti/Downloads/arquivo.pdf"
@@ -35,7 +34,3 @@ def get_date():
 
 codigo = read_my_pdf()
 vencimento = get_date()
-
-print("DETALHES...")
-print("Codigo:", codigo[0])
-print("Vencimento", vencimento)

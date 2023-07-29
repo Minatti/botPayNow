@@ -23,29 +23,11 @@ Minimalist design sketch (steps)
 
     0.1: get .exe for URL
 
+3. Open .exe
 
-******* create code....
 
-use lib pyautogui
-
-steps install
-
-enter
-<
-enter
-achar o botao coordenada(x, y)
-clicar leftclick
-ler a barra de progresso a cada x tempo
+4. action app for pay
 
 
 
 
-
-
-
-
-
-
-
-
-***********
